@@ -1,0 +1,39 @@
+/***********TAG Selectors***********/
+
+body {
+    background-color: powderblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 20%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(141, 150, 101);
+}
+
+img { 
+    width: 75px;
+    height: 75px;
+}
+
+/***********Class Selectors***********/
+
+.profilePic {
+    width: 175px;
+    height: 175px;
+}
+
+/***********Class Selectors***********/
+
+#heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 200;
+    
+}
