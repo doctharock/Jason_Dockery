@@ -1,0 +1,113 @@
+/*****Elements*****/
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: rgb(78, 78, 78);
+    text-align: center;
+    background-color: rgb(180, 199, 221);
+
+}
+
+div {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 10rem;
+    margin: 2rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: medium;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 20%;
+}
+
+/*****Classes*****/
+
+.topContainer {
+    position: relative;
+    padding-top: 2rem;
+    background-color: #FAF7F0;
+}
+
+.profile {
+    background-color: #CDFCF6;
+    padding-top: 1rem;
+}
+
+.skills {
+    background-color: #BCCEF8;
+}
+
+.contactMe {
+    background-color: #98A8F8;
+}
+
+.bottomContainer {
+    background-color: #98A8F8;
+}
+
+.warm {
+    text-decoration: underline;
+}
+
+.sun {
+    height: 100px;
+    width: 100px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.giphy {
+    font-size: x-small;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a {
+    background:
+      linear-gradient(
+        to right,
+        rgb(118, 122, 122),
+        rgb(24, 83, 83)
+      ),
+      linear-gradient(
+        to right,
+        rgb(255, 123, 0),
+        rgb(0, 25, 248)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    padding: 0.5rem;
+  }
+  
+  a:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+  
+ 
