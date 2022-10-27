@@ -1,37 +1,36 @@
-/**********ELEMENTS**********/
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    size: 3rem;
-    line-height: 1.5;
-    padding-top: 5rem;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
-    color: white; 
-}
-/**********IDs**********/
-
-#title {
-    background-color: #ff4c68;
+    text-align: center;
 }
 
-/**********CLASSES**********/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+
+/* Containers */
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 7% 15%;
+}
+
+
+/* sections */
+
+.bg-color {
+    background-color: #ff4c68;
+    }
+
+.bg-white {
+    background-color: #fff;
 }
 
 /* Navigation Bar */
 
-.navbar {
-    padding-bottom: 0 0 4.5rem;
-}
-
+   
 .navbar-brand {
     font-family: "Ubuntu";
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -48,16 +47,134 @@ body {
     margin: 5% 3% 5% 0%;
 }
 
-/* Title Image */
+
+/* Title */
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
 
 .titleImage {
-    width: 60%;
     transform: rotate(20deg);
     padding-top: 5rem;
-}    
+    position: absolute;
+    left: 30%;
+}
+
+.iphone {
+    position: relative;
+}
+
+.title-text {
+    color: #fff;
+    margin: auto;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 5rem;
+    text-align: left;
+}
+
+
+/* Features  */
+
+#features {
+    position: relative;
+}
+
+.h3-features {
+    size: 1.5rem;
+    line-height: 1.5;
+}
+
+.bsIcon {
+    color: #ef8172;
+}
+
+.bsIcon:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials  */
+
+#testimonials {
+
+    background-color: #ef8172;
     
-    
-    
-    
-    
-    
+}
+
+.testimonialImage {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.h2-testimonials {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Press  */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.pressImage {
+    width: 15%;
+    margin: 5px 20px 50px;
+}
+
+/* Pricing  */
+
+#pricing {
+    padding: 5% 5%;
+    color: black;
+}
+
+.price-price {
+    padding: 15px;
+}
+
+.price-column {
+    padding: 50px 0px;
+}
+
+.h2-pricing {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Call to Action */
+
+.h3-cta {
+
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.social-icons {
+    padding: 0.5%;
+    color: black;
+}
+
+/* Queries */
+
+@media (max-width: 992px) {
+
+    .titleImage {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .cta-h3 {
+        font-size: 2rem;
+    }
+}
