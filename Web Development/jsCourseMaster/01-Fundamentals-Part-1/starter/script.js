@@ -198,3 +198,11 @@
 // } else {
 //   console.log(`Not a valid day!`);
 // }
+
+const bill = 22;
+
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+
+console.log(
+  `The bill was ${bill}, the tip was ${tip}. The final bill was ${bill + tip}`
+);
