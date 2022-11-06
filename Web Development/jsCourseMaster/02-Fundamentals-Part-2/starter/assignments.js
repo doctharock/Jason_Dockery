@@ -195,3 +195,37 @@
 // for (let voter = 1; voter <= 30; voter++) {
 //   console.log(`Voter number ${voter} is currently voting 🗳️.`);
 // }
+
+// function percentageOfWorld1(population) {
+//   return (population / 7900) * 100;
+// }
+
+// const populations = [10, 1441, 332, 83];
+// console.log(populations === 4);
+// const percentages = [
+//   percentageOfWorld1(populations[0]),
+//   percentageOfWorld1(populations[1]),
+//   percentageOfWorld1(populations[2]),
+//   percentageOfWorld1(populations[3]),
+// ];
+
+// const percentages2 = [];
+
+// for (let i = 0; i < populations.length; i++) {
+//   percentages2.push(percentages[i]);
+// }
+
+// console.log(percentages);
+// console.log(percentages2);
+
+
+const listOfNeighbors
+
+for (let exercise = 1; exercise <= 3; exercise++) {
+  //   console.log(`-------Starting exercise ${exercise}`);
+  
+  //   for (let rep = 1; rep <= 5; rep++) {
+  //     console.log(`Exercise ${exercise}: Lifting weights repetition ${rep}.`);
+  //   }
+  // }
+  

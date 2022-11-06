@@ -177,14 +177,65 @@
 //   console.log(`Lifting weights repetition ${rep} 🏋️`);
 // }
 
-const jason = [
-  `Jason`,
-  `Dockery`,
-  2022 - 1979,
-  `Programmer Wannabe`,
-  [`Frank`, `Daniel`, `Frank Antonio`],
-];
+// const jason = [
+//   `Jason`,
+//   `Dockery`,
+//   2022 - 1979,
+//   `Programmer Wannabe`,
+//   [`Frank`, `Daniel`, `Frank Antonio`],
+//   false,
+// ];
 
-for (let i = 0; i < 5; i++) {
-  console.log(jason[i]);
-}
+// const types = [];
+
+// for (let i = 0; i < jason.length; i++) {
+//   console.log(jason[i], typeof jason[i]);
+
+//   // types[i] = typeof jason[i];
+
+//   types.push(typeof jason[i]);
+// }
+
+// console.log(types);
+
+// const years = [1991, 2007, 1979, 2020];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   ages.push(2037 - years[i]);
+// }
+
+// console.log(ages);
+
+// console.log(`----ONLY STRINGS ----`);
+// for (let i = 0; i < jason.length; i++) {
+//   if (typeof jason[i] !== `string`) continue;
+//   console.log(jason[i], typeof jason[i]);
+// }
+
+// console.log(`----BREAK WITH NUMBER ----`);
+// for (let i = 0; i < jason.length; i++) {
+//   if (typeof jason[i] === `number`) break;
+//   console.log(jason[i], typeof jason[i]);
+// }
+
+// const jason = [
+//   `Jason`,
+//   `Dockery`,
+//   2022 - 1979,
+//   `Programmer Wannabe`,
+//   [`Frank`, `Daniel`, `Frank Antonio`],
+//   true,
+// ];
+
+// for (let i = jason.length - 1; i >= 0; i--) {
+//   console.log(i, jason[i]);
+// }
+
+// for (let exercise = 1; exercise <= 3; exercise++) {
+//   console.log(`-------Starting exercise ${exercise}`);
+
+//   for (let rep = 1; rep <= 5; rep++) {
+//     console.log(`Exercise ${exercise}: Lifting weights repetition ${rep}.`);
+//   }
+// }
